@@ -1,7 +1,9 @@
+
+
 body{
    font-family: 'Aladin';
     background-color: rgb(191, 247, 247);
-    
+  
 }
 
 
@@ -87,6 +89,15 @@ flex-direction: column;
       }
       .panel.open{
     font-size: 15px;
+    flex: 3;
+}
+    }
+       @media only screen and (max-width: 375px) {
+      .panel {
+        font-size: 6px;
+      }
+      .panel.open{
+    font-size: 12px;
     flex: 3;
 }
     }
